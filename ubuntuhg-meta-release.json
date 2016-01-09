@@ -1,0 +1,1080 @@
+{
+  "modified_timestamp": "2015-10-27T22:34:00+00:00", 
+  "ordered_releases": [
+    "warty", 
+    "hoary", 
+    "breezy", 
+    "dapper", 
+    "edgy", 
+    "feisty", 
+    "gutsy", 
+    "hardy", 
+    "intrepid", 
+    "jaunty", 
+    "karmic", 
+    "lucid", 
+    "maverick", 
+    "natty", 
+    "oneiric", 
+    "precise", 
+    "quantal", 
+    "raring", 
+    "saucy", 
+    "trusty", 
+    "utopic", 
+    "vivid", 
+    "wily", 
+    "xenial"
+  ], 
+  "releases": {
+    "breezy": {
+      "_lts_next": "dapper", 
+      "_next": "dapper", 
+      "_previous": "hoary", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/breezy/Release", 
+      "_stanzas": [
+        "meta-release-development@2", 
+        "meta-release-proposed@2", 
+        "meta-release@2"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2005-10-13T19:34:42+00:00", 
+      "_version": "05.10", 
+      "date": "Thu, 13 Oct 2005 19:34:42 UTC", 
+      "description": "This is the Breezy Badger release", 
+      "dist": "breezy", 
+      "name": "Breezy Badger", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/breezy/Release", 
+      "supported": "0", 
+      "version": "05.10"
+    }, 
+    "dapper": {
+      "_lts_next": "hardy", 
+      "_next": "edgy", 
+      "_previous": "breezy", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/dapper/Release", 
+      "_stanzas": [
+        "meta-release-development@3", 
+        "meta-release-lts-development@0", 
+        "meta-release-lts-proposed@0", 
+        "meta-release-lts@0", 
+        "meta-release-proposed@3", 
+        "meta-release@3"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "long-term-support", 
+        "released"
+      ], 
+      "_timestamp": "2006-06-01T09:00:00+00:00", 
+      "_version": "6.06 LTS", 
+      "date": "Thu, 01 Jun 2006 9:00:00 UTC", 
+      "description": "This is the Dapper Drake release", 
+      "dist": "dapper", 
+      "name": "Dapper Drake", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/dapper/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "upgradetool": "http://archive.ubuntu.com/ubuntu/dists/dapper/main/dist-upgrader-all/current/dapper.tar.gz", 
+      "upgradetoolsignature": "http://archive.ubuntu.com/ubuntu/dists/dapper/main/dist-upgrader-all/current/dapper.tar.gz.gpg", 
+      "version": "6.06 LTS"
+    }, 
+    "edgy": {
+      "_lts_next": "hardy", 
+      "_lts_previous": "dapper", 
+      "_next": "feisty", 
+      "_previous": "dapper", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/edgy/Release", 
+      "_stanzas": [
+        "meta-release-development@4", 
+        "meta-release-proposed@4", 
+        "meta-release@4"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2006-10-26T12:00:00+00:00", 
+      "_version": "6.10", 
+      "date": "Thu, 26 Oct 2006 12:00:00 UTC", 
+      "description": "This is the Edgy Eft release", 
+      "dist": "edgy", 
+      "name": "Edgy Eft", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/edgy/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "upgradetool": "http://archive.ubuntu.com/ubuntu/dists/edgy-updates/main/dist-upgrader-all/current/edgy.tar.gz", 
+      "upgradetoolsignature": "http://archive.ubuntu.com/ubuntu/dists/edgy-updates/main/dist-upgrader-all/current/edgy.tar.gz.gpg", 
+      "version": "6.10"
+    }, 
+    "feisty": {
+      "_alternatives": {
+        "release-file": {
+          "meta-release-development@5": "http://archive.ubuntu.com/ubuntu/dists/feisty/Release", 
+          "meta-release-proposed@5": "http://archive.ubuntu.com/ubuntu/dists/feisty/Release", 
+          "meta-release@5": "http://old-releases.ubuntu.com/ubuntu/dists/feisty/Release"
+        }, 
+        "upgradetool": {
+          "meta-release-development@5": "http://archive.ubuntu.com/ubuntu/dists/feisty-proposed/main/dist-upgrader-all/current/feisty.tar.gz", 
+          "meta-release-proposed@5": "http://archive.ubuntu.com/ubuntu/dists/feisty-proposed/main/dist-upgrader-all/current/feisty.tar.gz", 
+          "meta-release@5": "http://old-releases.ubuntu.com/ubuntu/dists/feisty-proposed/main/dist-upgrader-all/current/feisty.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@5": "http://archive.ubuntu.com/ubuntu/dists/feisty-proposed/main/dist-upgrader-all/current/feisty.tar.gz.gpg", 
+          "meta-release-proposed@5": "http://archive.ubuntu.com/ubuntu/dists/feisty-proposed/main/dist-upgrader-all/current/feisty.tar.gz.gpg", 
+          "meta-release@5": "http://old-releases.ubuntu.com/ubuntu/dists/feisty-proposed/main/dist-upgrader-all/current/feisty.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "hardy", 
+      "_lts_previous": "dapper", 
+      "_next": "gutsy", 
+      "_previous": "edgy", 
+      "_release_file": "http://old-releases.ubuntu.com/ubuntu/dists/feisty/Release", 
+      "_stanzas": [
+        "meta-release-development@5", 
+        "meta-release-proposed@5", 
+        "meta-release@5"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2007-04-19T11:00:00+00:00", 
+      "_version": "7.04", 
+      "date": "Thu, 19 Apr 2007 13:00:00 +0200", 
+      "description": "This is the 7.04 release", 
+      "dist": "feisty", 
+      "name": "Feisty Fawn", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "7.04"
+    }, 
+    "gutsy": {
+      "_alternatives": {
+        "upgradetool": {
+          "meta-release-development@6": "http://archive.ubuntu.com/ubuntu/dists/gutsy/main/dist-upgrader-all/current/gutsy.tar.gz", 
+          "meta-release-proposed@6": "http://archive.ubuntu.com/ubuntu/dists/gutsy-proposed/main/dist-upgrader-all/current/gutsy.tar.gz", 
+          "meta-release@6": "http://archive.ubuntu.com/ubuntu/dists/gutsy/main/dist-upgrader-all/current/gutsy.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@6": "http://archive.ubuntu.com/ubuntu/dists/gutsy/main/dist-upgrader-all/current/gutsy.tar.gz.gpg", 
+          "meta-release-proposed@6": "http://archive.ubuntu.com/ubuntu/dists/gutsy-proposed/main/dist-upgrader-all/current/gutsy.tar.gz.gpg", 
+          "meta-release@6": "http://archive.ubuntu.com/ubuntu/dists/gutsy/main/dist-upgrader-all/current/gutsy.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "hardy", 
+      "_lts_previous": "dapper", 
+      "_next": "hardy", 
+      "_previous": "feisty", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/gutsy/Release", 
+      "_stanzas": [
+        "meta-release-proposed@6", 
+        "meta-release-development@6", 
+        "meta-release@6"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2007-10-18T12:00:00+00:00", 
+      "_version": "7.10", 
+      "date": "Thu, 18 Oct 2007 12:00:00 UTC", 
+      "description": "This is the 7.10 release", 
+      "dist": "gutsy", 
+      "name": "Gutsy Gibbon", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/gutsy/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "7.10"
+    }, 
+    "hardy": {
+      "_alternatives": {
+        "description": {
+          "meta-release-development@7": "This is the 8.04 LTS release", 
+          "meta-release-lts-development@1": "This is the 8.04 LTS release", 
+          "meta-release-lts-proposed@1": "This is the 8.04 LTS release", 
+          "meta-release-lts@1": "This is the 8.04.1 LTS release", 
+          "meta-release-proposed@7": "This is the 8.04 LTS release", 
+          "meta-release@7": "This is the 8.04 LTS release"
+        }, 
+        "release-file": {
+          "meta-release-development@7": "http://archive.ubuntu.com/ubuntu/dists/hardy/Release", 
+          "meta-release-lts-development@1": "http://archive.ubuntu.com/ubuntu/dists/hardy/Release", 
+          "meta-release-lts-proposed@1": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/Release", 
+          "meta-release-lts@1": "http://archive.ubuntu.com/ubuntu/dists/hardy/Release", 
+          "meta-release-proposed@7": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/Release", 
+          "meta-release@7": "http://archive.ubuntu.com/ubuntu/dists/hardy/Release"
+        }, 
+        "upgradetool": {
+          "meta-release-development@7": "http://archive.ubuntu.com/ubuntu/dists/hardy/main/dist-upgrader-all/current/hardy.tar.gz", 
+          "meta-release-lts-development@1": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/current/hardy.tar.gz", 
+          "meta-release-lts-proposed@1": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/current/hardy.tar.gz", 
+          "meta-release-lts@1": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/0.87.31/hardy.tar.gz", 
+          "meta-release-proposed@7": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/current/hardy.tar.gz", 
+          "meta-release@7": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/0.87.30/hardy.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@7": "http://archive.ubuntu.com/ubuntu/dists/hardy/main/dist-upgrader-all/current/hardy.tar.gz.gpg", 
+          "meta-release-lts-development@1": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/current/hardy.tar.gz.gpg", 
+          "meta-release-lts-proposed@1": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/current/hardy.tar.gz.gpg", 
+          "meta-release-lts@1": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/0.87.31/hardy.tar.gz.gpg", 
+          "meta-release-proposed@7": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/current/hardy.tar.gz.gpg", 
+          "meta-release@7": "http://archive.ubuntu.com/ubuntu/dists/hardy-proposed/main/dist-upgrader-all/0.87.30/hardy.tar.gz.gpg"
+        }, 
+        "version": {
+          "meta-release-development@7": "8.04 LTS", 
+          "meta-release-lts-development@1": "8.04 LTS", 
+          "meta-release-lts-proposed@1": "8.04 LTS", 
+          "meta-release-lts@1": "8.04.1 LTS", 
+          "meta-release-proposed@7": "8.04 LTS", 
+          "meta-release@7": "8.04 LTS"
+        }
+      }, 
+      "_lts_next": "lucid", 
+      "_lts_previous": "dapper", 
+      "_next": "intrepid", 
+      "_previous": "gutsy", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/hardy/Release", 
+      "_stanzas": [
+        "meta-release@7", 
+        "meta-release-lts@1", 
+        "meta-release-lts-proposed@1", 
+        "meta-release-proposed@7", 
+        "meta-release-lts-development@1", 
+        "meta-release-development@7"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "long-term-support", 
+        "released"
+      ], 
+      "_timestamp": "2008-04-24T12:00:00+00:00", 
+      "_version": "8.04 LTS", 
+      "date": "Thu, 24 Apr 2008 12:00:00 UTC", 
+      "dist": "hardy", 
+      "name": "Hardy Heron", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0"
+    }, 
+    "hoary": {
+      "_lts_next": "dapper", 
+      "_next": "breezy", 
+      "_previous": "warty", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/hoary/Release", 
+      "_stanzas": [
+        "meta-release-development@1", 
+        "meta-release-proposed@1", 
+        "meta-release@1"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2005-04-08T08:18:19+00:00", 
+      "_version": "05.04", 
+      "date": "Fri, 08 Apr 2005 08:18:19 UTC", 
+      "description": "This is the Hoary Hedgehog release", 
+      "dist": "hoary", 
+      "name": "Hoary  Hedgehog", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/hoary/Release", 
+      "supported": "0", 
+      "version": "05.04"
+    }, 
+    "intrepid": {
+      "_alternatives": {
+        "upgradetool": {
+          "meta-release-development@8": "http://archive.ubuntu.com/ubuntu/dists/intrepid/main/dist-upgrader-all/current/intrepid.tar.gz", 
+          "meta-release-proposed@8": "http://archive.ubuntu.com/ubuntu/dists/intrepid-proposed/main/dist-upgrader-all/current/intrepid.tar.gz", 
+          "meta-release@8": "http://archive.ubuntu.com/ubuntu/dists/intrepid-proposed/main/dist-upgrader-all/0.93.34/intrepid.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@8": "http://archive.ubuntu.com/ubuntu/dists/intrepid/main/dist-upgrader-all/current/intrepid.tar.gz.gpg", 
+          "meta-release-proposed@8": "http://archive.ubuntu.com/ubuntu/dists/intrepid-proposed/main/dist-upgrader-all/current/intrepid.tar.gz.gpg", 
+          "meta-release@8": "http://archive.ubuntu.com/ubuntu/dists/intrepid-proposed/main/dist-upgrader-all/0.93.34/intrepid.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "lucid", 
+      "_lts_previous": "hardy", 
+      "_next": "jaunty", 
+      "_previous": "hardy", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/intrepid/Release", 
+      "_stanzas": [
+        "meta-release@8", 
+        "meta-release-proposed@8", 
+        "meta-release-development@8"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2008-10-30T12:00:00+00:00", 
+      "_version": "8.10", 
+      "date": "Thu, 30 Oct 2008 12:00:00 UTC", 
+      "description": "This is the 8.10 release", 
+      "dist": "intrepid", 
+      "name": "Intrepid Ibex", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/intrepid/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "8.10"
+    }, 
+    "jaunty": {
+      "_alternatives": {
+        "upgradetool": {
+          "meta-release-development@9": "http://archive.ubuntu.com/ubuntu/dists/jaunty/main/dist-upgrader-all/current/jaunty.tar.gz", 
+          "meta-release-proposed@9": "http://archive.ubuntu.com/ubuntu/dists/jaunty-proposed/main/dist-upgrader-all/current/jaunty.tar.gz", 
+          "meta-release@9": "http://archive.ubuntu.com/ubuntu/dists/jaunty-proposed/main/dist-upgrader-all/0.111.8/jaunty.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@9": "http://archive.ubuntu.com/ubuntu/dists/jaunty/main/dist-upgrader-all/current/jaunty.tar.gz.gpg", 
+          "meta-release-proposed@9": "http://archive.ubuntu.com/ubuntu/dists/jaunty-proposed/main/dist-upgrader-all/current/jaunty.tar.gz.gpg", 
+          "meta-release@9": "http://archive.ubuntu.com/ubuntu/dists/jaunty-proposed/main/dist-upgrader-all/0.111.8/jaunty.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "lucid", 
+      "_lts_previous": "hardy", 
+      "_next": "karmic", 
+      "_previous": "intrepid", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/jaunty/Release", 
+      "_stanzas": [
+        "meta-release@9", 
+        "meta-release-proposed@9", 
+        "meta-release-development@9"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2009-04-23T12:00:00+00:00", 
+      "_version": "9.04", 
+      "date": "Thu, 23 Apr 2009 12:00:00 UTC", 
+      "description": "This is the 9.04 release", 
+      "dist": "jaunty", 
+      "name": "Jaunty Jackalope", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/jaunty/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "9.04"
+    }, 
+    "karmic": {
+      "_alternatives": {
+        "upgradetool": {
+          "meta-release-development@10": "http://archive.ubuntu.com/ubuntu/dists/karmic-proposed/main/dist-upgrader-all/current/karmic.tar.gz", 
+          "meta-release-proposed@10": "http://archive.ubuntu.com/ubuntu/dists/karmic-proposed/main/dist-upgrader-all/current/karmic.tar.gz", 
+          "meta-release@10": "http://archive.ubuntu.com/ubuntu/dists/karmic-proposed/main/dist-upgrader-all/0.126.9/karmic.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@10": "http://archive.ubuntu.com/ubuntu/dists/karmic-proposed/main/dist-upgrader-all/current/karmic.tar.gz.gpg", 
+          "meta-release-proposed@10": "http://archive.ubuntu.com/ubuntu/dists/karmic-proposed/main/dist-upgrader-all/current/karmic.tar.gz.gpg", 
+          "meta-release@10": "http://archive.ubuntu.com/ubuntu/dists/karmic-proposed/main/dist-upgrader-all/0.126.9/karmic.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "lucid", 
+      "_lts_previous": "hardy", 
+      "_next": "lucid", 
+      "_previous": "jaunty", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/karmic/Release", 
+      "_stanzas": [
+        "meta-release@10", 
+        "meta-release-development@10", 
+        "meta-release-proposed@10"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2009-10-29T12:00:00+00:00", 
+      "_version": "9.10", 
+      "date": "Thu, 29 Oct 2009 12:00:00 UTC", 
+      "description": "This is the 9.10 release", 
+      "dist": "karmic", 
+      "name": "Karmic Koala", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/karmic/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "9.10"
+    }, 
+    "lucid": {
+      "_alternatives": {
+        "upgradetool": {
+          "meta-release-development@11": "http://archive.ubuntu.com/ubuntu/dists/lucid-proposed/main/dist-upgrader-all/current/lucid.tar.gz", 
+          "meta-release-lts-proposed@2": "http://archive.ubuntu.com/ubuntu/dists/lucid-proposed/main/dist-upgrader-all/current/lucid.tar.gz", 
+          "meta-release-lts@2": "http://archive.ubuntu.com/ubuntu/dists/lucid-proposed/main/dist-upgrader-all/current/lucid.tar.gz", 
+          "meta-release-proposed@11": "http://archive.ubuntu.com/ubuntu/dists/lucid-proposed/main/dist-upgrader-all/current/lucid.tar.gz", 
+          "meta-release@11": "http://archive.ubuntu.com/ubuntu/dists/lucid-updates/main/dist-upgrader-all/current/lucid.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@11": "http://archive.ubuntu.com/ubuntu/dists/lucid-proposed/main/dist-upgrader-all/current/lucid.tar.gz.gpg", 
+          "meta-release-lts-proposed@2": "http://archive.ubuntu.com/ubuntu/dists/lucid-proposed/main/dist-upgrader-all/current/lucid.tar.gz.gpg", 
+          "meta-release-lts@2": "http://archive.ubuntu.com/ubuntu/dists/lucid-proposed/main/dist-upgrader-all/current/lucid.tar.gz.gpg", 
+          "meta-release-proposed@11": "http://archive.ubuntu.com/ubuntu/dists/lucid-proposed/main/dist-upgrader-all/current/lucid.tar.gz.gpg", 
+          "meta-release@11": "http://archive.ubuntu.com/ubuntu/dists/lucid-updates/main/dist-upgrader-all/current/lucid.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "precise", 
+      "_lts_previous": "hardy", 
+      "_next": "maverick", 
+      "_previous": "karmic", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/lucid/Release", 
+      "_stanzas": [
+        "meta-release-development@11", 
+        "meta-release-lts-proposed@2", 
+        "meta-release-lts@2", 
+        "meta-release-proposed@11", 
+        "meta-release@11"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "long-term-support", 
+        "released"
+      ], 
+      "_timestamp": "2010-04-29T12:00:00+00:00", 
+      "_version": "10.04.4 LTS", 
+      "date": "Thu, 29 Apr 2010 12:00:00 UTC", 
+      "description": "This is the 10.04.4 LTS release", 
+      "dist": "lucid", 
+      "name": "Lucid Lynx", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/lucid/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "10.04.4 LTS"
+    }, 
+    "maverick": {
+      "_alternatives": {
+        "_timestamp": {
+          "meta-release-development@12": "2010-10-10T12:00:00+00:00", 
+          "meta-release-proposed@12": "2010-10-10T10:10:10+00:00", 
+          "meta-release@12": "2010-10-10T10:10:10+00:00"
+        }, 
+        "date": {
+          "meta-release-development@12": "Thu, 10 Oct 2010 12:00:00 UTC", 
+          "meta-release-proposed@12": "Sun, 10 Oct 2010 10:10:10 UTC", 
+          "meta-release@12": "Sun, 10 Oct 2010 10:10:10 UTC"
+        }, 
+        "upgradetool": {
+          "meta-release-development@12": "http://archive.ubuntu.com/ubuntu/dists/maverick/main/dist-upgrader-all/current/maverick.tar.gz", 
+          "meta-release-proposed@12": "http://archive.ubuntu.com/ubuntu/dists/maverick-proposed/main/dist-upgrader-all/current/maverick.tar.gz", 
+          "meta-release@12": "http://archive.ubuntu.com/ubuntu/dists/maverick-updates/main/dist-upgrader-all/current/maverick.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@12": "http://archive.ubuntu.com/ubuntu/dists/maverick/main/dist-upgrader-all/current/maverick.tar.gz.gpg", 
+          "meta-release-proposed@12": "http://archive.ubuntu.com/ubuntu/dists/maverick-proposed/main/dist-upgrader-all/current/maverick.tar.gz.gpg", 
+          "meta-release@12": "http://archive.ubuntu.com/ubuntu/dists/maverick-updates/main/dist-upgrader-all/current/maverick.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "precise", 
+      "_lts_previous": "lucid", 
+      "_next": "natty", 
+      "_previous": "lucid", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/maverick/Release", 
+      "_stanzas": [
+        "meta-release-proposed@12", 
+        "meta-release@12", 
+        "meta-release-development@12"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2010-10-10T12:00:00+00:00", 
+      "_version": "10.10", 
+      "description": "This is the 10.10 release", 
+      "dist": "maverick", 
+      "name": "Maverick Meerkat", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/maverick/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "10.10"
+    }, 
+    "natty": {
+      "_alternatives": {
+        "upgradetool": {
+          "meta-release-development@13": "http://archive.ubuntu.com/ubuntu/dists/natty/main/dist-upgrader-all/current/natty.tar.gz", 
+          "meta-release-proposed@13": "http://archive.ubuntu.com/ubuntu/dists/natty-proposed/main/dist-upgrader-all/current/natty.tar.gz", 
+          "meta-release@13": "http://archive.ubuntu.com/ubuntu/dists/natty-updates/main/dist-upgrader-all/current/natty.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@13": "http://archive.ubuntu.com/ubuntu/dists/natty/main/dist-upgrader-all/current/natty.tar.gz.gpg", 
+          "meta-release-proposed@13": "http://archive.ubuntu.com/ubuntu/dists/natty-proposed/main/dist-upgrader-all/current/natty.tar.gz.gpg", 
+          "meta-release@13": "http://archive.ubuntu.com/ubuntu/dists/natty-updates/main/dist-upgrader-all/current/natty.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "precise", 
+      "_lts_previous": "lucid", 
+      "_next": "oneiric", 
+      "_previous": "maverick", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/natty/Release", 
+      "_stanzas": [
+        "meta-release-proposed@13", 
+        "meta-release@13", 
+        "meta-release-development@13"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2011-04-28T12:00:00+00:00", 
+      "_version": "11.04", 
+      "date": "Thu, 28 Apr 2011 12:00:00 UTC", 
+      "description": "This is the 11.04 release", 
+      "dist": "natty", 
+      "name": "Natty Narwhal", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/natty/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "11.04"
+    }, 
+    "oneiric": {
+      "_alternatives": {
+        "upgradetool": {
+          "meta-release-development@14": "http://archive.ubuntu.com/ubuntu/dists/oneiric-updates/main/dist-upgrader-all/current/oneiric.tar.gz", 
+          "meta-release-proposed@14": "http://archive.ubuntu.com/ubuntu/dists/oneiric-proposed/main/dist-upgrader-all/current/oneiric.tar.gz", 
+          "meta-release@14": "http://archive.ubuntu.com/ubuntu/dists/oneiric-updates/main/dist-upgrader-all/current/oneiric.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@14": "http://archive.ubuntu.com/ubuntu/dists/oneiric-updates/main/dist-upgrader-all/current/oneiric.tar.gz.gpg", 
+          "meta-release-proposed@14": "http://archive.ubuntu.com/ubuntu/dists/oneiric-proposed/main/dist-upgrader-all/current/oneiric.tar.gz.gpg", 
+          "meta-release@14": "http://archive.ubuntu.com/ubuntu/dists/oneiric-updates/main/dist-upgrader-all/current/oneiric.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "precise", 
+      "_lts_previous": "lucid", 
+      "_next": "precise", 
+      "_previous": "natty", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/oneiric/Release", 
+      "_stanzas": [
+        "meta-release-proposed@14", 
+        "meta-release-development@14", 
+        "meta-release@14"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2011-10-13T12:00:00+00:00", 
+      "_version": "11.10", 
+      "date": "Thu, 13 Oct 2011 12:00:00 UTC", 
+      "description": "This is the 11.10 release", 
+      "dist": "oneiric", 
+      "name": "Oneiric Ocelot", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/oneiric/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "11.10"
+    }, 
+    "precise": {
+      "_alternatives": {
+        "releasenotes": {
+          "meta-release-development@15": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release-lts-proposed@3": "http://archive.ubuntu.com/ubuntu/dists/precise-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release-lts@3": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release-proposed@15": "http://archive.ubuntu.com/ubuntu/dists/precise-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release@15": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/ReleaseAnnouncement"
+        }, 
+        "releasenoteshtml": {
+          "meta-release-development@15": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release-lts-proposed@3": "http://archive.ubuntu.com/ubuntu/dists/precise-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release-lts@3": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release-proposed@15": "http://archive.ubuntu.com/ubuntu/dists/precise-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release@15": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html"
+        }, 
+        "upgradetool": {
+          "meta-release-development@15": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/precise.tar.gz", 
+          "meta-release-lts-proposed@3": "http://archive.ubuntu.com/ubuntu/dists/precise-proposed/main/dist-upgrader-all/current/precise.tar.gz", 
+          "meta-release-lts@3": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/precise.tar.gz", 
+          "meta-release-proposed@15": "http://archive.ubuntu.com/ubuntu/dists/precise-proposed/main/dist-upgrader-all/current/precise.tar.gz", 
+          "meta-release@15": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/precise.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@15": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/precise.tar.gz.gpg", 
+          "meta-release-lts-proposed@3": "http://archive.ubuntu.com/ubuntu/dists/precise-proposed/main/dist-upgrader-all/current/precise.tar.gz.gpg", 
+          "meta-release-lts@3": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/precise.tar.gz.gpg", 
+          "meta-release-proposed@15": "http://archive.ubuntu.com/ubuntu/dists/precise-proposed/main/dist-upgrader-all/current/precise.tar.gz.gpg", 
+          "meta-release@15": "http://archive.ubuntu.com/ubuntu/dists/precise-updates/main/dist-upgrader-all/current/precise.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "trusty", 
+      "_lts_previous": "lucid", 
+      "_next": "quantal", 
+      "_previous": "oneiric", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/precise/Release", 
+      "_stanzas": [
+        "meta-release-lts-proposed@3", 
+        "meta-release-proposed@15", 
+        "meta-release-development@15", 
+        "meta-release-lts@3", 
+        "meta-release@15"
+      ], 
+      "_tags": [
+        "long-term-support", 
+        "released", 
+        "supported"
+      ], 
+      "_timestamp": "2012-04-26T12:04:00+00:00", 
+      "_version": "12.04.5 LTS", 
+      "date": "Thu, 26 Apr 2012 12:04:00 UTC", 
+      "description": "This is the 12.04.5 LTS release", 
+      "dist": "precise", 
+      "name": "Precise Pangolin", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/precise/Release", 
+      "supported": "1", 
+      "version": "12.04.5 LTS"
+    }, 
+    "quantal": {
+      "_alternatives": {
+        "upgradetool": {
+          "meta-release-development@16": "http://archive.ubuntu.com/ubuntu/dists/quantal-updates/main/dist-upgrader-all/current/quantal.tar.gz", 
+          "meta-release-proposed@16": "http://archive.ubuntu.com/ubuntu/dists/quantal-proposed/main/dist-upgrader-all/current/quantal.tar.gz", 
+          "meta-release@16": "http://archive.ubuntu.com/ubuntu/dists/quantal-updates/main/dist-upgrader-all/current/quantal.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@16": "http://archive.ubuntu.com/ubuntu/dists/quantal-updates/main/dist-upgrader-all/current/quantal.tar.gz.gpg", 
+          "meta-release-proposed@16": "http://archive.ubuntu.com/ubuntu/dists/quantal-proposed/main/dist-upgrader-all/current/quantal.tar.gz.gpg", 
+          "meta-release@16": "http://archive.ubuntu.com/ubuntu/dists/quantal-updates/main/dist-upgrader-all/current/quantal.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "trusty", 
+      "_lts_previous": "precise", 
+      "_next": "raring", 
+      "_previous": "precise", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/quantal/Release", 
+      "_stanzas": [
+        "meta-release-proposed@16", 
+        "meta-release-development@16", 
+        "meta-release@16"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2012-10-18T12:04:00+00:00", 
+      "_version": "12.10", 
+      "date": "Thu, 18 Oct 2012 12:04:00 UTC", 
+      "description": "This is the 12.10 release", 
+      "dist": "quantal", 
+      "name": "Quantal Quetzal", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/quantal/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "12.10"
+    }, 
+    "raring": {
+      "_alternatives": {
+        "release-file": {
+          "meta-release-development@17": "http://archive.ubuntu.com/ubuntu/dists/raring-updates/Release", 
+          "meta-release-proposed@17": "http://archive.ubuntu.com/ubuntu/dists/raring/Release", 
+          "meta-release@17": "http://archive.ubuntu.com/ubuntu/dists/raring/Release"
+        }, 
+        "upgradetool": {
+          "meta-release-development@17": "http://archive.ubuntu.com/ubuntu/dists/raring-updates/main/dist-upgrader-all/current/raring.tar.gz", 
+          "meta-release-proposed@17": "http://archive.ubuntu.com/ubuntu/dists/raring-proposed/main/dist-upgrader-all/current/raring.tar.gz", 
+          "meta-release@17": "http://archive.ubuntu.com/ubuntu/dists/raring-updates/main/dist-upgrader-all/current/raring.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@17": "http://archive.ubuntu.com/ubuntu/dists/raring-updates/main/dist-upgrader-all/current/raring.tar.gz.gpg", 
+          "meta-release-proposed@17": "http://archive.ubuntu.com/ubuntu/dists/raring-proposed/main/dist-upgrader-all/current/raring.tar.gz.gpg", 
+          "meta-release@17": "http://archive.ubuntu.com/ubuntu/dists/raring-updates/main/dist-upgrader-all/current/raring.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "trusty", 
+      "_lts_previous": "precise", 
+      "_next": "saucy", 
+      "_previous": "quantal", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/raring/Release", 
+      "_stanzas": [
+        "meta-release-proposed@17", 
+        "meta-release-development@17", 
+        "meta-release@17"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2013-04-25T13:04:00+00:00", 
+      "_version": "13.04", 
+      "date": "Thu, 25 Apr 2013 13:04:00 UTC", 
+      "description": "This is the 13.04 release", 
+      "dist": "raring", 
+      "name": "Raring Ringtail", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "13.04"
+    }, 
+    "saucy": {
+      "_alternatives": {
+        "upgradetool": {
+          "meta-release-development@18": "http://archive.ubuntu.com/ubuntu/dists/saucy-updates/main/dist-upgrader-all/current/saucy.tar.gz", 
+          "meta-release-proposed@18": "http://archive.ubuntu.com/ubuntu/dists/saucy-proposed/main/dist-upgrader-all/current/saucy.tar.gz", 
+          "meta-release@18": "http://archive.ubuntu.com/ubuntu/dists/saucy-updates/main/dist-upgrader-all/current/saucy.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@18": "http://archive.ubuntu.com/ubuntu/dists/saucy-updates/main/dist-upgrader-all/current/saucy.tar.gz.gpg", 
+          "meta-release-proposed@18": "http://archive.ubuntu.com/ubuntu/dists/saucy-proposed/main/dist-upgrader-all/current/saucy.tar.gz.gpg", 
+          "meta-release@18": "http://archive.ubuntu.com/ubuntu/dists/saucy-updates/main/dist-upgrader-all/current/saucy.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "trusty", 
+      "_lts_previous": "precise", 
+      "_next": "trusty", 
+      "_previous": "raring", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/saucy/Release", 
+      "_stanzas": [
+        "meta-release-proposed@18", 
+        "meta-release-development@18", 
+        "meta-release@18"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2013-10-17T13:10:00+00:00", 
+      "_version": "13.10", 
+      "date": "Thu, 17 Oct 2013 13:10:00 UTC", 
+      "description": "This is the 13.10 release", 
+      "dist": "saucy", 
+      "name": "Saucy Salamander", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/saucy/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "13.10"
+    }, 
+    "trusty": {
+      "_alternatives": {
+        "releasenotes": {
+          "meta-release-development@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release-lts-proposed@4": "http://archive.ubuntu.com/ubuntu/dists/trusty-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release-lts@4": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release-proposed@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/ReleaseAnnouncement"
+        }, 
+        "releasenoteshtml": {
+          "meta-release-development@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release-lts-proposed@4": "http://archive.ubuntu.com/ubuntu/dists/trusty-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release-lts@4": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release-proposed@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html"
+        }, 
+        "upgradetool": {
+          "meta-release-development@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/trusty.tar.gz", 
+          "meta-release-lts-proposed@4": "http://archive.ubuntu.com/ubuntu/dists/trusty-proposed/main/dist-upgrader-all/current/trusty.tar.gz", 
+          "meta-release-lts@4": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/trusty.tar.gz", 
+          "meta-release-proposed@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-proposed/main/dist-upgrader-all/current/trusty.tar.gz", 
+          "meta-release@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/trusty.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/trusty.tar.gz.gpg", 
+          "meta-release-lts-proposed@4": "http://archive.ubuntu.com/ubuntu/dists/trusty-proposed/main/dist-upgrader-all/current/trusty.tar.gz.gpg", 
+          "meta-release-lts@4": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/trusty.tar.gz.gpg", 
+          "meta-release-proposed@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-proposed/main/dist-upgrader-all/current/trusty.tar.gz.gpg", 
+          "meta-release@19": "http://archive.ubuntu.com/ubuntu/dists/trusty-updates/main/dist-upgrader-all/current/trusty.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "xenial", 
+      "_lts_previous": "precise", 
+      "_next": "utopic", 
+      "_previous": "saucy", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/trusty/Release", 
+      "_solo_tags": [
+        "lts-stable"
+      ], 
+      "_stanzas": [
+        "meta-release-lts-proposed@4", 
+        "meta-release-proposed@19", 
+        "meta-release-development@19", 
+        "meta-release-lts@4", 
+        "meta-release@19"
+      ], 
+      "_tags": [
+        "long-term-support", 
+        "lts-stable", 
+        "released", 
+        "supported"
+      ], 
+      "_timestamp": "2014-04-17T14:04:00+00:00", 
+      "_version": "14.04.3 LTS", 
+      "date": "Thu, 17 Apr 2014 14:04:00 UTC", 
+      "description": "This is the 14.04.3 LTS release", 
+      "dist": "trusty", 
+      "name": "Trusty Tahr", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/trusty/Release", 
+      "supported": "1", 
+      "version": "14.04.3 LTS"
+    }, 
+    "utopic": {
+      "_alternatives": {
+        "upgradetool": {
+          "meta-release-development@20": "http://archive.ubuntu.com/ubuntu/dists/utopic/main/dist-upgrader-all/current/utopic.tar.gz", 
+          "meta-release-proposed@20": "http://archive.ubuntu.com/ubuntu/dists/utopic-proposed/main/dist-upgrader-all/current/utopic.tar.gz", 
+          "meta-release@20": "http://archive.ubuntu.com/ubuntu/dists/utopic/main/dist-upgrader-all/current/utopic.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@20": "http://archive.ubuntu.com/ubuntu/dists/utopic/main/dist-upgrader-all/current/utopic.tar.gz.gpg", 
+          "meta-release-proposed@20": "http://archive.ubuntu.com/ubuntu/dists/utopic-proposed/main/dist-upgrader-all/current/utopic.tar.gz.gpg", 
+          "meta-release@20": "http://archive.ubuntu.com/ubuntu/dists/utopic/main/dist-upgrader-all/current/utopic.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "xenial", 
+      "_lts_previous": "trusty", 
+      "_next": "vivid", 
+      "_previous": "trusty", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/utopic/Release", 
+      "_stanzas": [
+        "meta-release-proposed@20", 
+        "meta-release-development@20", 
+        "meta-release@20"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2014-10-23T14:10:00+00:00", 
+      "_version": "14.10", 
+      "date": "Thu, 23 Oct 2014 14:10:00 UTC", 
+      "description": "This is the 14.10 release", 
+      "dist": "utopic", 
+      "name": "Utopic Unicorn", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/utopic/Release", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
+      "version": "14.10"
+    }, 
+    "vivid": {
+      "_alternatives": {
+        "releasenotes": {
+          "meta-release-development@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release-proposed@21": "http://archive.ubuntu.com/ubuntu/dists/vivid/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/ReleaseAnnouncement"
+        }, 
+        "releasenoteshtml": {
+          "meta-release-development@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release-proposed@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html"
+        }, 
+        "upgradetool": {
+          "meta-release-development@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/vivid.tar.gz", 
+          "meta-release-proposed@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-proposed/main/dist-upgrader-all/current/vivid.tar.gz", 
+          "meta-release@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/vivid.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/vivid.tar.gz.gpg", 
+          "meta-release-proposed@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-proposed/main/dist-upgrader-all/current/vivid.tar.gz.gpg", 
+          "meta-release@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/vivid.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "xenial", 
+      "_lts_previous": "trusty", 
+      "_next": "wily", 
+      "_previous": "utopic", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/vivid/Release", 
+      "_stanzas": [
+        "meta-release-proposed@21", 
+        "meta-release-development@21", 
+        "meta-release@21"
+      ], 
+      "_tags": [
+        "released", 
+        "supported"
+      ], 
+      "_timestamp": "2015-04-23T15:04:00+00:00", 
+      "_version": "15.04", 
+      "date": "Thu, 23 April 2015 15:04:00 UTC", 
+      "description": "This is the 15.04 release", 
+      "dist": "vivid", 
+      "name": "Vivid Vervet", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/vivid/Release", 
+      "supported": "1", 
+      "version": "15.04"
+    }, 
+    "warty": {
+      "_lts_next": "dapper", 
+      "_next": "hoary", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/warty/Release", 
+      "_stanzas": [
+        "meta-release-development@0", 
+        "meta-release-proposed@0", 
+        "meta-release@0"
+      ], 
+      "_tags": [
+        "end-of-life", 
+        "released"
+      ], 
+      "_timestamp": "2004-10-20T07:28:17+00:00", 
+      "_version": "04.10", 
+      "date": "Wed, 20 Oct 2004 07:28:17 UTC", 
+      "description": "This is the warty warthog release", 
+      "dist": "warty", 
+      "name": "Warty Warthog", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/warty/Release", 
+      "supported": "0", 
+      "version": "04.10"
+    }, 
+    "wily": {
+      "_alternatives": {
+        "releasenotes": {
+          "meta-release-development@22": "http://archive.ubuntu.com/ubuntu/dists/wily-updates/main/dist-upgrader-all/current/DevelReleaseAnnouncement", 
+          "meta-release-proposed@22": "http://archive.ubuntu.com/ubuntu/dists/wily-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement", 
+          "meta-release@22": "http://archive.ubuntu.com/ubuntu/dists/wily-updates/main/dist-upgrader-all/current/ReleaseAnnouncement"
+        }, 
+        "releasenoteshtml": {
+          "meta-release-development@22": "http://archive.ubuntu.com/ubuntu/dists/wily-updates/main/dist-upgrader-all/current/DevelReleaseAnnouncement.html", 
+          "meta-release-proposed@22": "http://archive.ubuntu.com/ubuntu/dists/wily-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
+          "meta-release@22": "http://archive.ubuntu.com/ubuntu/dists/wily-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html"
+        }, 
+        "upgradetool": {
+          "meta-release-development@22": "http://archive.ubuntu.com/ubuntu/dists/wily-updates/main/dist-upgrader-all/current/wily.tar.gz", 
+          "meta-release-proposed@22": "http://archive.ubuntu.com/ubuntu/dists/wily-proposed/main/dist-upgrader-all/current/wily.tar.gz", 
+          "meta-release@22": "http://archive.ubuntu.com/ubuntu/dists/wily-updates/main/dist-upgrader-all/current/wily.tar.gz"
+        }, 
+        "upgradetoolsignature": {
+          "meta-release-development@22": "http://archive.ubuntu.com/ubuntu/dists/wily-updates/main/dist-upgrader-all/current/wily.tar.gz.gpg", 
+          "meta-release-proposed@22": "http://archive.ubuntu.com/ubuntu/dists/wily-proposed/main/dist-upgrader-all/current/wily.tar.gz.gpg", 
+          "meta-release@22": "http://archive.ubuntu.com/ubuntu/dists/wily-updates/main/dist-upgrader-all/current/wily.tar.gz.gpg"
+        }
+      }, 
+      "_lts_next": "xenial", 
+      "_lts_previous": "trusty", 
+      "_next": "xenial", 
+      "_previous": "vivid", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/wily/Release", 
+      "_solo_tags": [
+        "stable"
+      ], 
+      "_stanzas": [
+        "meta-release-proposed@22", 
+        "meta-release-development@22", 
+        "meta-release@22"
+      ], 
+      "_tags": [
+        "released", 
+        "stable", 
+        "supported"
+      ], 
+      "_timestamp": "2015-10-22T15:10:00+00:00", 
+      "_version": "15.10", 
+      "date": "Thu, 22 October 2015 15:10:00 UTC", 
+      "description": "This is the 15.10 release", 
+      "dist": "wily", 
+      "name": "Wily Werewolf", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/wily/Release", 
+      "supported": "1", 
+      "version": "15.10"
+    }, 
+    "xenial": {
+      "_lts_previous": "trusty", 
+      "_previous": "wily", 
+      "_release_file": "http://archive.ubuntu.com/ubuntu/dists/xenial/Release", 
+      "_solo_tags": [
+        "future", 
+        "lts-next", 
+        "next", 
+        "next-next"
+      ], 
+      "_stanzas": [
+        "meta-release-development@23"
+      ], 
+      "_tags": [
+        "future", 
+        "long-term-support", 
+        "lts-next", 
+        "next", 
+        "next-next"
+      ], 
+      "_timestamp": "2016-04-21T16:04:00+00:00", 
+      "_version": "16.04 LTS", 
+      "date": "Thu, 21 April 2016 16:04:00 UTC", 
+      "description": "This is the 16.04 release", 
+      "dist": "xenial", 
+      "name": "Xenial Xerus", 
+      "release-file": "http://archive.ubuntu.com/ubuntu/dists/xenial/Release", 
+      "releasenotes": "http://archive.ubuntu.com/ubuntu/dists/xenial/main/dist-upgrader-all/current/DevelReleaseAnnouncement", 
+      "releasenoteshtml": "http://archive.ubuntu.com/ubuntu/dists/xenial/main/dist-upgrader-all/current/DevelReleaseAnnouncement.html", 
+      "supported": "0", 
+      "upgradetool": "http://archive.ubuntu.com/ubuntu/dists/xenial/main/dist-upgrader-all/current/xenial.tar.gz", 
+      "upgradetoolsignature": "http://archive.ubuntu.com/ubuntu/dists/xenial/main/dist-upgrader-all/current/xenial.tar.gz.gpg", 
+      "version": "16.04 LTS"
+    }
+  }, 
+  "tagged_releases": {
+    "end-of-life": [
+      "warty", 
+      "hoary", 
+      "breezy", 
+      "dapper", 
+      "edgy", 
+      "feisty", 
+      "gutsy", 
+      "hardy", 
+      "intrepid", 
+      "jaunty", 
+      "karmic", 
+      "lucid", 
+      "maverick", 
+      "natty", 
+      "oneiric", 
+      "quantal", 
+      "raring", 
+      "saucy", 
+      "utopic"
+    ], 
+    "future": [
+      "xenial"
+    ], 
+    "long-term-support": [
+      "dapper", 
+      "hardy", 
+      "lucid", 
+      "precise", 
+      "trusty", 
+      "xenial"
+    ], 
+    "lts-next": [
+      "xenial"
+    ], 
+    "lts-stable": [
+      "trusty"
+    ], 
+    "next": [
+      "xenial"
+    ], 
+    "next-next": [
+      "xenial"
+    ], 
+    "released": [
+      "warty", 
+      "hoary", 
+      "breezy", 
+      "dapper", 
+      "edgy", 
+      "feisty", 
+      "gutsy", 
+      "hardy", 
+      "intrepid", 
+      "jaunty", 
+      "karmic", 
+      "lucid", 
+      "maverick", 
+      "natty", 
+      "oneiric", 
+      "precise", 
+      "quantal", 
+      "raring", 
+      "saucy", 
+      "trusty", 
+      "utopic", 
+      "vivid", 
+      "wily"
+    ], 
+    "stable": [
+      "wily"
+    ], 
+    "supported": [
+      "precise", 
+      "trusty", 
+      "vivid", 
+      "wily"
+    ]
+  }
+}
