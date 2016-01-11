@@ -26,6 +26,13 @@
     "wily", 
     "xenial"
   ], 
+  "ordered_solo_tags": [
+    "stable", 
+    "next", 
+    "next-next", 
+    "lts-stable", 
+    "lts-next"
+  ], 
   "releases": {
     "breezy": {
       "_lts_next": "dapper", 
@@ -967,10 +974,9 @@
       "_previous": "wily", 
       "_release_file": "http://archive.ubuntu.com/ubuntu/dists/xenial/Release", 
       "_solo_tags": [
-        "future", 
-        "lts-next", 
         "next", 
-        "next-next"
+        "next-next", 
+        "lts-next"
       ], 
       "_stanzas": [
         "meta-release-development@23"
