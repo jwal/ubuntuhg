@@ -1,5 +1,5 @@
 {
-  "modified_timestamp": "2015-10-27T22:34:00+00:00", 
+  "modified_timestamp": "2016-02-04T17:36:00+00:00", 
   "ordered_releases": [
     "warty", 
     "hoary", 
@@ -850,16 +850,6 @@
     }, 
     "vivid": {
       "_alternatives": {
-        "releasenotes": {
-          "meta-release-development@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/ReleaseAnnouncement", 
-          "meta-release-proposed@21": "http://archive.ubuntu.com/ubuntu/dists/vivid/main/dist-upgrader-all/current/ReleaseAnnouncement", 
-          "meta-release@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/ReleaseAnnouncement"
-        }, 
-        "releasenoteshtml": {
-          "meta-release-development@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
-          "meta-release-proposed@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-proposed/main/dist-upgrader-all/current/ReleaseAnnouncement.html", 
-          "meta-release@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/ReleaseAnnouncement.html"
-        }, 
         "upgradetool": {
           "meta-release-development@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-updates/main/dist-upgrader-all/current/vivid.tar.gz", 
           "meta-release-proposed@21": "http://archive.ubuntu.com/ubuntu/dists/vivid-proposed/main/dist-upgrader-all/current/vivid.tar.gz", 
@@ -882,8 +872,8 @@
         "meta-release@21"
       ], 
       "_tags": [
-        "released", 
-        "supported"
+        "end-of-life", 
+        "released"
       ], 
       "_timestamp": "2015-04-23T15:04:00+00:00", 
       "_version": "15.04", 
@@ -892,7 +882,8 @@
       "dist": "vivid", 
       "name": "Vivid Vervet", 
       "release-file": "http://archive.ubuntu.com/ubuntu/dists/vivid/Release", 
-      "supported": "1", 
+      "releasenotes": "http://changelogs.ubuntu.com/EOLReleaseAnnouncement", 
+      "supported": "0", 
       "version": "15.04"
     }, 
     "warty": {
@@ -1023,7 +1014,8 @@
       "quantal", 
       "raring", 
       "saucy", 
-      "utopic"
+      "utopic", 
+      "vivid"
     ], 
     "future": [
       "xenial"
@@ -1079,7 +1071,6 @@
     "supported": [
       "precise", 
       "trusty", 
-      "vivid", 
       "wily"
     ]
   }
